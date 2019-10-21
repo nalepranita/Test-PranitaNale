@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search for Barclays on google.com",
+        "description": "",
+        "id": "google-search;search-for-barclays-on-google.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8995007900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have chrome browser opened",
+            "match": {
+              "location": "googleSearchStepDefinition.i_have_chrome_browser_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1731069100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to https://www.google.com/",
+            "match": {
+              "location": "googleSearchStepDefinition.i_go_to_https_www_google_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266424000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I type Barclays into search bar",
+            "match": {
+              "location": "googleSearchStepDefinition.i_type_Barclays_into_search_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2086636300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I hit search",
+            "match": {
+              "location": "googleSearchStepDefinition.i_hit_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71770700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "https://www.barclays.co.uk/ is first url on search results",
+            "match": {
+              "location": "googleSearchStepDefinition.https_www_barclays_co_uk_is_first_url_on_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "C:/LogFiles/Selenium/BarclaysTestGoogleSearch/src/main/java/Feature/googleSearch.feature"
+  }
+]

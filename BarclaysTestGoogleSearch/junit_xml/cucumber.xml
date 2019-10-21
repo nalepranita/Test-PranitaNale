@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.150908">
+<testcase classname="Google Search" name="Search for Barclays on google.com" time="13.150908">
+<system-out><![CDATA[Given I have chrome browser opened..........................................passed
+When I go to https://www.google.com/........................................passed
+And I type Barclays into search bar.........................................passed
+And I hit search............................................................passed
+Then https://www.barclays.co.uk/ is first url on search results.............passed
+]]></system-out>
+</testcase>
+</testsuite>
